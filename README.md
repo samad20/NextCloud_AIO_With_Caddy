@@ -4,15 +4,15 @@
 
 ## Pull needed images
 
-    docker pull nextcloud/all-in-one:lateste
-    docker pull nextcloud/aio-nextcloud:latest
-    docker pull nextcloud/aio-collabora:latest
-    docker pull nextcloud/aio-domaincheck:latest
-    docker pull nextcloud/aio-imaginary:latest
-    docker pull nextcloud/aio-postgresql:latest
-    docker pull nextcloud/aio-redis:latest
-    docker pull nextcloud/aio-talk:latest
-    docker pull nextcloud/aio-apache:latest
+    docker pull nextcloud/all-in-one
+    docker pull nextcloud/aio-nextcloud
+    docker pull nextcloud/aio-collabora
+    docker pull nextcloud/aio-domaincheck
+    docker pull nextcloud/aio-imaginary
+    docker pull nextcloud/aio-postgresql
+    docker pull nextcloud/aio-redis
+    docker pull nextcloud/aio-talk
+    docker pull nextcloud/aio-apache
 ## Install Caddy
 
  [Read this web page ](https://caddyserver.com/docs/install)
