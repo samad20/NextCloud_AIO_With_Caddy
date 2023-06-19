@@ -45,4 +45,4 @@ Create and start containers
     docker compose up -d
 Open  `https://localhost:8080` and complete installation process.
 
-After that, you can access nextcloud by your domain.
+After that, you can access nextcloud by `https://your_domain`.
