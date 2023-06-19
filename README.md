@@ -1,5 +1,7 @@
 # Install NextCloud AIO using docker-compose and caddy
 
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Nextcloud_Logo.svg/160px-Nextcloud_Logo.svg.png)
+
 ## Pull needed images
 
     docker pull nextcloud/all-in-one:lateste
@@ -27,19 +29,20 @@ If you want use domain name your Caddyfile should look like this:
            reverse_proxy localhost:11000 
         }
 
-If you want use local domain (only work in your local network), your Caddyfile should look like this:
-
-    yourdamin.local {
-           reverse_proxy localhost:11000 
-        }
         
      
 ## Install Nextcloud AIO
 
-clone the repository
+Clone the repository
 
     git clone https://github.com/samad20/NextCloud_AIO_With_Caddy.git
 
-change directory 
+Change directory 
 
     cd NextCloud_AIO_With_Caddy
+Create and start containers
+
+    docker compose up -d
+Open  `https://localhost:8080` and complete installation process.
+
+After that, you can access nextcloud by your domain.
